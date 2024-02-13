@@ -7,10 +7,6 @@ def trova_num(n,k):
     #     return n
     else:
         return trova_num(n-1,k-1)+trova_num(n-1,k)
-
-
-
-    
 n=int(input("In che riga vuoi cercare il numero "))
 k=int(input("In che colonna vuoi cercare il numero "))
 print("Il numero che cerchi è",trova_num(n,k))
