@@ -7,4 +7,5 @@ def seq_fibonacci(n):
         return 1
 
 n=int(input("in che posizione vuoi cercare il numero? "))
-print(seq_fibonacci(n))    
+print("il numero che cercavi è ",seq_fibonacci(n))
+print("la sezione aurea è ",seq_fibonacci(n)/seq_fibonacci(n-1))    
