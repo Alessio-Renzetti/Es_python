@@ -1,7 +1,4 @@
 import random
-'\u001b[32m'
-'\u001b[33m'
-'\u001b[31m'
 def controllo(parola,parola1):
     str1=""
     for x in range(len(parola)):
