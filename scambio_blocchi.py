@@ -1,6 +1,5 @@
 lista=[]
 lista_scambiata=[[]]
-respons=""
 cond=""
 cont=0
 while cond!="si":
